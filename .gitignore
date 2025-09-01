@@ -2,8 +2,11 @@
 .DS_Store
 
 /temp/
+/venv/
 /.project
 /.pydevproject
+
+notification.py
 
 # checkpoint
 checkpoints/
