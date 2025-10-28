@@ -1,4 +1,12 @@
-# Alpha Zero General (any game, any framework!)
+#Learning MUTS through MCTS 
+
+This repository includes an implementation of Monte Carlo Tree Search (MCTS), inspired by the AlphaGo Zero approach, for the game **MUTS: Mushroom Tactics**, a turn-based game for two players that is easy to learn and set on a 4×4 chessboard.
+
+Due to limited hardware resources, the tests were conducted on a small number of episodes and MCTS simulations. Despite these limitations, it was still possible to generate agents that outperform random adversaries and have a reasonable chance of beating the greedy agent.
+
+The following section continues from the original repository’s README.
+
+## Alpha Zero General (any game, any framework!)
 A simplified, highly flexible, commented and (hopefully) easy to understand implementation of self-play based reinforcement learning based on the AlphaGo Zero paper (Silver et al). It is designed to be easy to adopt for any two-player turn-based adversarial game and any deep learning framework of your choice. A sample implementation has been provided for the game of Othello in PyTorch and Keras. An accompanying tutorial can be found [here](https://suragnair.github.io/posts/alphazero.html). We also have implementations for many other games like GoBang and TicTacToe.
 
 To use a game of your choice, subclass the classes in ```Game.py``` and ```NeuralNet.py``` and implement their functions. Example implementations for Othello can be found in ```othello/OthelloGame.py``` and ```othello/{pytorch,keras}/NNet.py```. 
