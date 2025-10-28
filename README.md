@@ -1,4 +1,4 @@
-#Learning MUTS through MCTS 
+# Learning MUTS through MCTS 
 
 This repository includes an implementation of Monte Carlo Tree Search (MCTS), inspired by the AlphaGo Zero approach, for the game **MUTS: Mushroom Tactics**, a turn-based game for two players that is easy to learn and set on a 4×4 chessboard.
 
